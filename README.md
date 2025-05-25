@@ -1,11 +1,14 @@
-# 30
+## 30 Day Dev Development Plan
 
--- This repo is a practice repo for me to hone my coding skills starting from zero.
+## Overview
 
-Day 0 - 5.25.2025
-Created this private repository named "30" signifying the 30 day plan to start from the beginning and be at a higher level within 30 days of 2-3 hours of learning coding everyday.
+## This readme file documents my road from 0 to 30 days and how far I'll go by coding 4 hours a day and learning from multiple sources.
 
-Initial projects:
-"Hello, world" in HTML and Python.
+## Day 0 - 5.25.2025
 
-Created index.html and hello.py
+- Created the repository and looked up GitHub CLIs and learned the basics of push and pull requests.
+- Created the following files:
+  'index.html': Shows a basic greeting, "Hello, World!"
+  'hello.py': Prints out, "Hello, World!" to the terminal.
+
+- Key learnings: Usage of Git CLI, How to push changes to GitHub
