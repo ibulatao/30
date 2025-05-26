@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Portfolio</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<nav>
+    <div class="nav-container">
+        <div class="logo">Isaiah</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+<!-- Main Content -->
+ <main>
+    <!-- Home Section -->
+     <section id="home" class="hero">
+        <h1>Hi, I'm Isaiah!</h1>
+        <p>Aspiring Developer & Creative Problem Solver</p>
+        <a href="#about" class="cta-button">Learn More About Me</a>
+     </section>
+
+     <!-- About Me Section-->
+      <section id="about" class="section about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <div class="about-image">
+                Your Photo Here
+            </div>
+            <div class="about-text">
+                <p>Welcome to my sample portfolio! I'm Isaiah, a passionate web developer with a love for creating clean, functional and user-friendly programs or websites.</p>
+            </div>
+        </div>
+      </section>"
+
+      <!-- Projects Section -->
+       <section id="projects" class="section projects">
+        <h2>My Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <h3>Project One</h3>
+                <p>Sample text here.</p>
+                <a href="#" class="project-link">View Project→</a>
+            </div>
+            <div class=""project-card">
+                <h3>Project Two</h3>
+                <p>Sample text here.</p>
+                <a href="#" class="project-link">View Project→</a>
+            </div>
+            <div class=""project-card">
+                <h3>Project Three</h3>
+                <p>Sample text here.</p>
+                <a href="#" class="project-link">View Project→</a>
+            </div>
+        </div>
+       </section>
+       <!-- Contact Section -->
+        <section id="contact" class="section contact">
+            <h2>Get In Touch</h2>
+            <form class="contact-form" onsubmit="handleSubmit(event)">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="name">Email</label>
+                    <input type="text" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="name">Subject</label>
+                    <input type="text" id="subject" name="subject" required>
+                </div>
+                <div class="form-group">
+                    <label for="name">Message</label>
+                    <textarea id="message" name="message" required placeholder="Tell me about your project or idea!"></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </section>
+ </main>
+
+ <!-- Footer -->
+<footer>
+  <p>&copy; 2025. All rights reserved.</p>
+</footer>
+<script src="script.js">    
+</script>
+</body>
+</html>
